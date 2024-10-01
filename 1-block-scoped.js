@@ -1,12 +1,12 @@
-export default function taskBlock(trueOrFalse) {
-  const task = false;  // Change var to let
-  const task2 = true;  // Change var to let
+export default function taskBlock(true0False){
+    var task = false;
+    var task2 = true;
 
-  if (trueOrFalse) {
-    const task3 = true;      // No need to redeclare; just assign
-    const task4 = false;    // No need to redeclare; just assign
-  }
-
-  return [task, task2];
+    if (true0False)
+    {
+        const task = true;
+        const task2 = false;
+    }
+    return [task, task2];
 }
 
